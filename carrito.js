@@ -3,11 +3,7 @@
 
     var products_array = [];
     
-    //function render_products_callback() {};
-    
     conekta.setToken("KDeu5s4hZHRH3eP7eff2");
-    
-    
     conekta.display.getProducts({}, function(p){    
     for (var i = 0, l = p.length; i < l; ++i) {
     products_array[i] = p[i];
